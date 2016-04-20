@@ -1,0 +1,92 @@
+<resources>
+
+    <string name="app_name">Megenepan</string>
+    <string name="menu_settings">Settings</string>
+    <string name="Fragment1">This is Fragment 1</string>
+    <string name="Fragment2">This is Fragment 2</string>
+    <string name="Fragment3">This is Fragment 3</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="km_sebelum">Km. sebelumnya</string>
+    <string name="km_berikutnya">berikutnya</string>
+    <string name="prev">Prev</string>
+    <string name="next">Next</string>
+    <string name="ganti_oli">Ganti Oli</string>
+    <string name="service">Service</string>
+    <string name="oli_gardan">Oli Gardan</string>
+    <string name="filter_udara">Filter Udara</string>
+    <string name="busi">Busi</string>
+    <string name="v_belt">V-Belt</string>
+    <string name="km">Kilometer</string>
+    <string name="settings_current_odometer">Odometer Sekarang</string>
+    <string name="settings_average_km_per_day">Rata-rata Mm/hari</string>
+    <string name="isi">Isi</string>
+    <string name="batal">Batal</string>
+    <string name="km_now">Km Sekarang</string>
+    <string name="last_updated">Last updated</string>
+    <string name="update">Update</string>
+    <string name="km_close">Km terdekat</string>
+    <string name="km_close_desc">Km terdekat untuk service</string>
+    
+    <string name="gaji_anda">Gaji Anda</string>
+    <string name="dana_sosial">Dana Sosial</string>
+    <string name="hutang">Hutang</string>
+    <string name="tabungan">Tabungan dan Investasi</string>
+    <string name="kebutuhan">Kebutuhan sehari-hari</string>
+    <string name="hiburan">Hiburan</string>
+    
+    <string name="fragment_1_title">Balinese</string>
+    <string name="fragment_1_subtitle">Menghitung dg Kalender Bali</string>
+    <string name="fragment_2_title">Future Value</string>
+    <string name="fragment_2_subtitle">Nilai uang di masa depan</string>
+    <string name="fragment_3_title">Jadwal Service</string>
+    <string name="fragment_3_subtitle">Jadwal service Scoopy</string>
+    <string name="fragment_4_title">Monthly Budget</string>
+    <string name="fragment_4_subtitle">Jatah bulanan</string>
+    
+    <string name="hello_world">Hello world!</string>
+     
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <!-- <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>-->
+    </array>
+     
+    <!-- Option list -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    
+    <string-array name="hitung_hari_items">
+        <item >Custom Hari</item>
+        <item >Custom Bulan</item>
+        <item >Abulan pitung dina</item>
+        <item >Dedinan</item>
+        <item >3 Bulanan</item>
+        <item >Otonan</item>
+        <item >Umur Sekarang</item>
+        <!-- <item >Pages</item>
+        <item >What\'s Hot</item> -->
+    </string-array>
+    
+    <string name="date_format">dd-MMM-yyyy</string>
+    
+    <string name="hari">hari</string>
+    <string name="bulan">bulan</string>
+    <string name="date_picker">DatePicker</string>
+	<string name="success_add_to_calendar">berhasil menambahkan ke kalender</string>
+	<string name="name_cannot_be_empty">Nama harus diisi</string>
+	<string name="dedinan">[DEDINAN]-</string>
+	<string name="otonan">[OTONAN]-</string>
+	<string name="di_rumah">Di Rumah</string>
+	<string name="jumlah_hari_harus_diisi">Jumlah hari harus diisi.</string>
+	<string name="jumlah_bulan_harus_diisi">Jumlah bulan harus diisi.</string>
+	<string name="hitung_kalender_bali">Menghitung dengan Kalender Bali</string>
+	<string name="atur_tanggal">Atur tanggal</string>
+	<string name="tambah_ke_kalender">Tambah ke Kalender</string>
+	<string name="nama">Nama</string>
+</resources>
