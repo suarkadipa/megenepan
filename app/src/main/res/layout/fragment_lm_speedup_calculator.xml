@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_common"
+            android:layout_marginRight="@dimen/margin_common"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/text_width"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/m3" />
+
+            <EditText
+                android:id="@+id/et3m"
+                android:layout_width="@dimen/edit_text_width"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="numberSigned"
+                android:text="0"
+                android:selectAllOnFocus="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/same_as" />
+
+            <TextView
+                android:id="@+id/tv3m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/text_width"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/m5" />
+
+            <EditText
+                android:id="@+id/et5m"
+                android:layout_width="@dimen/edit_text_width"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="numberSigned"
+                android:text="0"
+                android:selectAllOnFocus="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/same_as" />
+
+            <TextView
+                android:id="@+id/tv5m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_common"
+            android:layout_marginRight="@dimen/margin_common"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/text_width"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/m10" />
+
+            <EditText
+                android:id="@+id/et10m"
+                android:layout_width="@dimen/edit_text_width"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="numberSigned"
+                android:text="0"
+                android:selectAllOnFocus="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/same_as" />
+
+            <TextView
+                android:id="@+id/tv10m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_common"
+            android:layout_marginRight="@dimen/margin_common"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/text_width"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/m15" />
+
+            <EditText
+                android:id="@+id/et15m"
+                android:layout_width="@dimen/edit_text_width"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="numberSigned"
+                android:text="0"
+                android:selectAllOnFocus="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/same_as" />
+
+            <TextView
+                android:id="@+id/tv15m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_common"
+            android:layout_marginRight="@dimen/margin_common"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/text_width"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/m30" />
+
+            <EditText
+                android:id="@+id/et30m"
+                android:layout_width="@dimen/edit_text_width"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="numberSigned"
+                android:text="0"
+                android:selectAllOnFocus="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/same_as" />
+
+            <TextView
+                android:id="@+id/tv30m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_common"
+            android:layout_marginRight="@dimen/margin_common"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/text_width"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/m60" />
+
+            <EditText
+                android:id="@+id/et60m"
+                android:layout_width="@dimen/edit_text_width"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="numberSigned"
+                android:text="0"
+                android:selectAllOnFocus="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/same_as" />
+
+            <TextView
+                android:id="@+id/tv60m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_common"
+            android:layout_marginRight="@dimen/margin_common"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/text_width"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/h3" />
+
+            <EditText
+                android:id="@+id/et3h"
+                android:layout_width="@dimen/edit_text_width"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="numberSigned"
+                android:text="0"
+                android:selectAllOnFocus="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/same_as" />
+
+            <TextView
+                android:id="@+id/tv3h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_common"
+            android:layout_marginRight="@dimen/margin_common"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/text_width"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/h8" />
+
+            <EditText
+                android:id="@+id/et8h"
+                android:layout_width="@dimen/edit_text_width"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="numberSigned"
+                android:text="0"
+                android:selectAllOnFocus="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/same_as" />
+
+            <TextView
+                android:id="@+id/tv8h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_common"
+            android:layout_marginRight="@dimen/margin_common"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/text_width"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/h15" />
+
+            <EditText
+                android:id="@+id/et15h"
+                android:layout_width="@dimen/edit_text_width"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="numberSigned"
+                android:text="0"
+                android:selectAllOnFocus="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/same_as" />
+
+            <TextView
+                android:id="@+id/tv15h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_common"
+            android:layout_marginRight="@dimen/margin_common"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/text_width"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/h24" />
+
+            <EditText
+                android:id="@+id/et24h"
+                android:layout_width="@dimen/edit_text_width"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="numberSigned"
+                android:text="0"
+                android:selectAllOnFocus="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/same_as" />
+
+            <TextView
+                android:id="@+id/tv24h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_common"
+            android:layout_marginRight="@dimen/margin_common"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/text_width"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/d3" />
+
+            <EditText
+                android:id="@+id/et3d"
+                android:layout_width="@dimen/edit_text_width"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="numberSigned"
+                android:text="0"
+                android:selectAllOnFocus="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/same_as" />
+
+            <TextView
+                android:id="@+id/tv3d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_common"
+            android:layout_marginRight="@dimen/margin_common"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/text_width"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/d7" />
+
+            <EditText
+                android:id="@+id/et7d"
+                android:layout_width="@dimen/edit_text_width"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="numberSigned"
+                android:text="0"
+                android:selectAllOnFocus="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/same_as" />
+
+            <TextView
+                android:id="@+id/tv7d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_common"
+            android:layout_marginRight="@dimen/margin_common"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/text_width"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/d30" />
+
+            <EditText
+                android:id="@+id/et30d"
+                android:layout_width="@dimen/edit_text_width"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="numberSigned"
+                android:text="0"
+                android:selectAllOnFocus="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/same_as" />
+
+            <TextView
+                android:id="@+id/tv30d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_common"
+            android:layout_marginRight="@dimen/margin_common"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="@dimen/margin_common"
+                android:layout_marginRight="@dimen/margin_common"
+                android:text="Total : "
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_common"
+            android:layout_marginRight="@dimen/margin_common"
+            android:text="@string/calc_speed_up" />
+
+    </LinearLayout>
+</ScrollView>

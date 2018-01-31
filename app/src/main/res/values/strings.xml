@@ -43,6 +43,10 @@
     <string name="fragment_3_subtitle">Jadwal service Scoopy</string>
     <string name="fragment_4_title">Monthly Budget</string>
     <string name="fragment_4_subtitle">Jatah bulanan</string>
+    <string name="fragment_5_title">Speed Up Calculator</string>
+    <string name="fragment_5_subtitle">LM Speed Up Calculator</string>
+    <string name="fragment_6_title">Resources Calculator</string>
+    <string name="fragment_6_subtitle">LM Resources Up Calculator</string>
     
     <string name="hello_world">Hello world!</string>
      
@@ -89,4 +93,51 @@
 	<string name="atur_tanggal">Atur tanggal</string>
 	<string name="tambah_ke_kalender">Tambah ke Kalender</string>
 	<string name="nama">Nama</string>
+
+    <string name="same_as">=</string>
+    <string name="m3">3 min X</string>
+    <string name="m5">5 min X</string>
+    <string name="m10">10 min X</string>
+    <string name="m15">15 min X</string>
+    <string name="m30">30 min X</string>
+    <string name="m60">60 min X</string>
+    <string name="h3">3 hours X</string>
+    <string name="h8">8 hours X</string>
+    <string name="h15">15 hours X</string>
+    <string name="h24">24 hours X</string>
+    <string name="d3">3 Days X</string>
+    <string name="d7">7 Days X</string>
+    <string name="d30">30 Days X</string>
+    <string name="created_by">Created by [HaV] x Plumber x</string>
+    <string name="calc_speed_up">Calculate Speed Up</string>
+
+    <string name="rss300">300 X</string>
+    <string name="rss1p5k">1,500 X</string>
+    <string name="rss2k">2,000 X</string>
+    <string name="rss2p5k">2,500 X</string>
+    <string name="rss3k">3,000 X</string>
+    <string name="rss3p5k">3,500 X</string>
+    <string name="rss4k">4,000 X</string>
+    <string name="rss5k">5,000 X</string>
+    <string name="rss6k">6,000 X</string>
+    <string name="rss7k">7,000 X</string>
+    <string name="rss9k">9,000 X</string>
+    <string name="rss10k">10K X</string>
+    <string name="rss12k">12K X</string>
+    <string name="rss15k">15K X</string>
+    <string name="rss20k">20K X</string>
+    <string name="rss25k">25K X</string>
+    <string name="rss30k">30K X</string>
+    <string name="rss35k">35K X</string>
+    <string name="rss50k">50K X</string>
+    <string name="rss150k">150K X</string>
+    <string name="rss200k">200K X</string>
+    <string name="rss500k">500K X</string>
+    <string name="rss600k">600K X</string>
+    <string name="rss1p5m">1.5M X</string>
+    <string name="rss2m">2M X</string>
+    <string name="rss5m">5M X</string>
+    <string name="rss6m">6M X</string>
+    <string name="rss15m">15M X</string>
+    <string name="calc_resources">Calculate Resources</string>
 </resources>

@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="text_size">20dp</dimen>
+    <dimen name="text_width">100dp</dimen>
+    <dimen name="edit_text_width">100dp</dimen>
+    <dimen name="margin_common">15dp</dimen>
 </resources>
