@@ -112,6 +112,8 @@
     <string name="calc_speed_up">Calculate Speed Up</string>
 
     <string name="rss300">300 X</string>
+    <string name="rss600">600 X</string>
+    <string name="rss1k">1000 X</string>
     <string name="rss1p5k">1,500 X</string>
     <string name="rss2k">2,000 X</string>
     <string name="rss2p5k">2,500 X</string>
@@ -130,6 +132,7 @@
     <string name="rss30k">30K X</string>
     <string name="rss35k">35K X</string>
     <string name="rss50k">50K X</string>
+    <string name="rss100k">100K X</string>
     <string name="rss150k">150K X</string>
     <string name="rss200k">200K X</string>
     <string name="rss500k">500K X</string>

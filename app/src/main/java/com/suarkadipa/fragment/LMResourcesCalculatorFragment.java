@@ -82,6 +82,12 @@ public class LMResourcesCalculatorFragment extends SherlockFragment {
     private TextView mtv2k;
     private EditText m2p5k;
     private TextView mtv2p5k;
+    private EditText m1k;
+    private TextView mtv1k;
+    private EditText m600;
+    private TextView mtv600;
+    private EditText m100k;
+    private TextView mtv100k;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -91,6 +97,12 @@ public class LMResourcesCalculatorFragment extends SherlockFragment {
 
         m300 = (EditText) rootView.findViewById(R.id.et300);
         mtv300 = (TextView) rootView.findViewById(R.id.tv300);
+
+        m600 = (EditText) rootView.findViewById(R.id.et600);
+        mtv600 = (TextView) rootView.findViewById(R.id.tv600);
+
+        m1k = (EditText) rootView.findViewById(R.id.et1k);
+        mtv1k = (TextView) rootView.findViewById(R.id.tv1k);
 
         m1p5k = (EditText) rootView.findViewById(R.id.et1p5k);
         mtv1p5k = (TextView) rootView.findViewById(R.id.tv1p5k);
@@ -146,6 +158,9 @@ public class LMResourcesCalculatorFragment extends SherlockFragment {
         m50k = (EditText) rootView.findViewById(R.id.et50k);
         mtv50k = (TextView) rootView.findViewById(R.id.tv50k);
 
+        m100k = (EditText) rootView.findViewById(R.id.et100k);
+        mtv100k = (TextView) rootView.findViewById(R.id.tv100k);
+
         m150k = (EditText) rootView.findViewById(R.id.et150k);
         mtv150k = (TextView) rootView.findViewById(R.id.tv150k);
 
@@ -182,6 +197,8 @@ public class LMResourcesCalculatorFragment extends SherlockFragment {
             @Override
             public void onClick(View view) {
                 calculate(m300, Constant.RSS_300, mtv300);
+                calculate(m600, Constant.RSS_600, mtv600);
+                calculate(m1k, Constant.RSS_1K, mtv1k);
                 calculate(m1p5k, Constant.RSS_1p5K, mtv1p5k);
                 calculate(m2k, Constant.RSS_2K, mtv2k);
                 calculate(m2p5k, Constant.RSS_2p5K, mtv2p5k);
@@ -200,6 +217,7 @@ public class LMResourcesCalculatorFragment extends SherlockFragment {
                 calculate(m30k, Constant.RSS_30K, mtv30k);
                 calculate(m35k, Constant.RSS_35K, mtv35k);
                 calculate(m50k, Constant.RSS_50K, mtv50k);
+                calculate(m100k, Constant.RSS_100K, mtv100k);
                 calculate(m150k, Constant.RSS_150K, mtv150k);
                 calculate(m200k, Constant.RSS_200K, mtv200k);
                 calculate(m500k, Constant.RSS_500K, mtv500k);

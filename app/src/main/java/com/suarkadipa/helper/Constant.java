@@ -24,6 +24,7 @@ public class Constant {
 
     public static final int RSS_100 = 100;
     public static final int RSS_300 = RSS_100 * 3;
+    public static final int RSS_600 = RSS_100 * 6;
     public static final int RSS_1K = 1000;
     public static final int RSS_1p5K = RSS_1K + 500;
     public static final int RSS_2K = 2000;
@@ -43,6 +44,7 @@ public class Constant {
     public static final int RSS_30K = RSS_1K * 30;
     public static final int RSS_35K = RSS_1K * 35;
     public static final int RSS_50K = RSS_1K * 50;
+    public static final int RSS_100K = RSS_1K * 100;
     public static final int RSS_150K = RSS_1K * 150;
     public static final int RSS_200K = RSS_1K * 200;
     public static final int RSS_500K = RSS_1K * 500;
